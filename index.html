@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YAudio - youtube audio downloader</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="https://freepngimg.com/download/alphabets/15-2-y-alphabet-png.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="logo">Y<span class="logo_design">Audio</span></li>
+          <li class="nav_item">
+            <a href="#about">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="center_data">
+      <div class="title">
+        <h1 class="title_of_website">Welcome to Yaudio downloader</h1>
+        <p>
+          Save MP3 audio from YouTube,Enter video or sound URL in input to
+          download audio
+        </p>
+      </div>
+      <div id="url_box">
+        <form action="">
+          <div class="input_box">
+            <input type="text" placeholder="Paste your video link here" />
+            <div class="btn">
+              <i class="fa-solid fa-arrow-right fa-beat-fade"></i>
+            </div>
+          </div>
+          <div class="quality">
+            <label for="quality">quality</label>
+            <select name="quality" id="quality">
+              <option value="320">320</option>
+              <option value="256">256</option>
+              <option value="192">192</option>
+              <option value="128" selected>128</option>
+              <option value="64">64</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="downlod_data">
+        <div class="title_of_link"></div>
+        <div class="size_of_link"></div>
+        <button id="download_link">
+          <a href="">
+            Download <i class="fa-solid fa-download fa-beat-fade"></i>
+          </a>
+        </button>
+      </div>
+    </main>
+    <section id="about">
+      <div class="about_section">
+        <h2>Hello</h2>
+        <div class="line"></div>
+        <div class="about_card">
+          <p>
+            Welcome to YAudio – your gateway to turning YouTube videos into
+            captivating audio experiences effortlessly! Created with a focus on
+            simplicity and convenience, our platform offers an intuitive
+            solution for extracting high-quality audio from your favorite
+            YouTube content. Whether it's melodic tunes, motivational speeches,
+            or educational lectures, YAudio has got you covered.
+          </p>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1682096465092-405c46f3613c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="error404..."
+          />
+        </div>
+        <div class="about_card rev">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1682096467444-8861e1dc3bc2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="error404..."
+          />
+          <p>
+            Designed with educational purposes in mind, our tool also serves as
+            a practical way to understand digital tools and their
+            functionalities. With a user-friendly interface, you can easily
+            learn how to interact with digital platforms while converting
+            YouTube videos into audio files. Plus, your privacy is paramount –
+            we never store any personal data or download history.
+          </p>
+        </div>
+        <div class="about_card">
+          <p>
+            Whether you're a music enthusiast, podcast lover, or avid learner,
+            YAudio unlocks endless possibilities for audio exploration. Join our
+            community of satisfied users today and embark on a journey of
+            seamless audio conversion. Embrace the convenience, embrace the
+            learning – YAudio is here for you!
+          </p>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1682096494788-c87bc630eefc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="error404..."
+          />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Stay connected with YAudio for all your audio conversion needs:</p>
+      <div>
+        <div class="social">
+          <p>Follow us on social media for updates, tips, and tricks.</p>
+          <div class="icon">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+        <div class="arrange_footer">
+          <p>
+            Subscribe to our newsletter for exclusive offers and feature
+            announcements.
+          </p>
+          <p>Contact our support team for any assistance or inquiries.</p>
+        </div>
+        <p>Terms of Service | Privacy Policy | © YAudio 2024</p>
+      </div>
+    </footer>
+
+    <div id="loader">
+      <span class="loader"></span>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
