@@ -4,6 +4,10 @@
     text-decoration: none;
 }
 
+body{
+    overflow-x:hidden;
+}
+
 header{
     position: absolute;
     top: 20px;
